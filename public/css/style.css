@@ -15992,10 +15992,13 @@ readers do not read off random characters that represent icons */
 }
 
 body {
-  font-family: "Courgette", cursive;
   font-family: "Ubuntu";
   background-image: url("../../public/images/main_bg.jpg");
   background-size: 500px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Courgette";
 }
 
 header {
