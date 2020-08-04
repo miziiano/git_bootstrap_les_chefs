@@ -15998,6 +15998,30 @@ body {
   background-size: 500px;
 }
 
+header {
+  height: 900px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../public/images/banner1.jpg");
+}
+header li:hover {
+  background-color: red;
+}
+header p {
+  font-size: 60px;
+  font-family: courgette;
+  color: white;
+}
+header p .premier {
+  text-transform: uppercase;
+}
+header p .deuxieme {
+  text-transform: uppercase;
+  color: red;
+}
+
+.navbar ul li {
+  padding: 0 35px;
+}
+
 .navbarinho {
   display: flex;
   flex-direction: row;
@@ -16073,10 +16097,8 @@ body {
 
 .chefcuisto {
   background-image: url("../../public/images/team_background.jpg");
-  background-image-display: flex;
-  height: 180%;
-  background-size: 1600px;
-  background-repeat: no-repeat;
+  display: flex;
+  height: auto;
   align-content: center;
 }
 
@@ -16091,8 +16113,30 @@ body {
   margin: 20px 0px;
 }
 
-.formulaire .container .row .mr-5 button{
+.formulaire .container .button {
   border-radius: 50px;
+}
+
+.client {
+  background-image: url("../../public/images/testimonials_background.jpg");
+}
+.client .row .col-4 {
+  border-radius: 10px;
+  border: 1px solid white;
+}
+.client .row .col-2 img {
+  height: 150px;
+  border-radius: 10px;
+  border: 3px solid white;
+  background-color: red;
+}
+
+.contact .container .row .col-4 {
+  border-radius: 30px;
+}
+
+footer .row {
+  background-image: url("../../public/images/team_background.jpg");
 }
 
 /*# sourceMappingURL=style.css.map */
