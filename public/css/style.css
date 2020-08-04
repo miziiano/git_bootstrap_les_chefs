@@ -16071,4 +16071,13 @@ body {
   border: 25px;
 }
 
+.chefcuisto {
+  background-image: url("../../public/images/team_background.jpg");
+  /* background-image-display: flex; */
+  height: 180%;
+  background-size: 1600px;
+  background-repeat: no-repeat;
+  align-content: center;
+}
+
 /*# sourceMappingURL=style.css.map */
