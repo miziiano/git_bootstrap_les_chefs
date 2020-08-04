@@ -16073,11 +16073,26 @@ body {
 
 .chefcuisto {
   background-image: url("../../public/images/team_background.jpg");
-  /* background-image-display: flex; */
+  background-image-display: flex;
   height: 180%;
   background-size: 1600px;
   background-repeat: no-repeat;
   align-content: center;
+}
+
+.formulaire {
+  background-image: url("../../public/images/book_table_bg.jpg");
+}
+
+.formulaire .container .row .col-4 {
+  margin-left: 100px;
+}
+.formulaire .container .row .col-4 .form-control {
+  margin: 20px 0px;
+}
+
+.formulaire .container .row .mr-5 button{
+  border-radius: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */
